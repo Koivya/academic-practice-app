@@ -4,7 +4,10 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
+def multiply(a, b): 
+    return a * b
+
 if __name__ == "__main__":
     print("Сложение: 5 + 3 =", add(5, 3))
     print("Вычитание: 5 - 3 =", subtract(5, 3))
-    
+    print("Умножение: 5 * 3 =", multiply(5, 3))
